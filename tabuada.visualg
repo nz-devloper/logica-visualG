@@ -1,0 +1,32 @@
+algoritmo "tabuada"
+
+var
+  numero:inteiro
+
+
+inicio
+
+  escreval("Escolha um numero de 1 a 10 ")
+  leia(numero)
+  escolha numero
+    caso 1,2,3,4,5,6,7,8,9,10
+
+      escreval("tabuada do numero", numero, ":")
+
+      escreval(numero, " x 1 = ", numero * 1)
+      escreval(numero, " x 1 = ", numero * 2)
+      escreval(numero, " x 1 = ", numero * 3)
+      escreval(numero, " x 1 = ", numero * 4)
+      escreval(numero, " x 1 = ", numero * 5)
+      escreval(numero, " x 1 = ", numero * 6)
+      escreval(numero, " x 1 = ", numero * 7)
+      escreval(numero, " x 1 = ", numero * 8)
+      escreval(numero, " x 1 = ", numero * 9)
+      escreval(numero, " x 1 = ", numero * 10)
+
+    outrocaso
+      escreval("numero invalido! Digite de 1 a 10")
+  fimescolha
+fimalgoritmo
+
+

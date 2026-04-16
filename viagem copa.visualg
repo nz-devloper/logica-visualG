@@ -1,0 +1,17 @@
+algoritmo "viagem_copa"
+
+var
+   valor, falta: real
+
+inicio
+   escreva("Digite o valor que você já tem guardado: ")
+   leia(valor)
+
+   se (valor >= 25000) entao
+      escreval("Suficiente para ir à copa")
+   senao
+      falta <- 25000 - valor
+      escreval("Faltam R$ ", falta, " para a meta")
+   fimse
+
+fimalgoritmo
